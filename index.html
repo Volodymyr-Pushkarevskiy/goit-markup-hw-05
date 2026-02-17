@@ -342,8 +342,8 @@
                 <div class="portfolio-card-overlay">
                   <p>
                     14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                    · Cloud Storage App
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
                   </p>
                 </div>
               </div>
@@ -360,9 +360,11 @@
                   width="360"
                 />
                 <div class="portfolio-card-overlay">
-                  <p>14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App</p>
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
                 </div>
               </div>
               <div class="portfolio-card-text-container">
@@ -380,8 +382,8 @@
                 <div class="portfolio-card-overlay">
                   <p>
                     14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                    · Cloud Storage App
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
                   </p>
                 </div>
               </div>
@@ -400,8 +402,8 @@
                 <div class="portfolio-card-overlay">
                   <p>
                     14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                    · Cloud Storage App
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
                   </p>
                 </div>
               </div>
@@ -420,8 +422,8 @@
                 <div class="portfolio-card-overlay">
                   <p>
                     14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                    · Cloud Storage App
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
                   </p>
                 </div>
               </div>
@@ -481,8 +483,122 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-container">
+          <form class="footer-form">
+            <p class="footer-form-text">Subscribe</p>
+            <div class="footer-form-input-container">
+              <input
+                type="email"
+                name="footer-email-input"
+                placeholder="E-mail"
+                class="footer-form-input"
+                required
+              />
+              <button type="submit" class="footer-form-btn">
+                Subscribe
+                <svg width="24" height="24" class="footer-btn-icon">
+                  <use href="./images/icons.svg#icon-telegram"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- #endregion footer -->
+
+    <!-- #region popup -->
+
+    <div class="backdrop hiden-popup">
+      <div class="popup-review">
+        <button type="button" class="popup-close-button">
+          <svg width="8" height="8" class="popup-close-icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="popup-review-text">
+          Leave your contacts and we will call you back
+        </p>
+        <form>
+          <div class="field-wrapper">
+            <label class="label-field" for="popup-user-name">Name</label>
+            <div class="input-wrapper">
+              <input
+                class="text-field"
+                type="text"
+                id="popup-user-name"
+                name="popup-user-name"
+                required
+              />
+              <svg width="18" height="24" class="input-icon">
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="field-wrapper">
+            <label class="label-field" for="popup-user-phone">Phone</label>
+            <div class="input-wrapper">
+              <input
+                class="text-field"
+                type="tel"
+                id="popup-user-phone"
+                name="popup-user-phone"
+                required
+              />
+              <svg width="18" height="24" class="input-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="field-wrapper">
+            <label class="label-field" for="popup-user-email">Email</label>
+            <div class="input-wrapper">
+              <input
+                class="text-field"
+                type="email"
+                id="popup-user-email"
+                name="popup-user-email"
+                required
+              />
+              <svg width="18" height="24" class="input-icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="field-wrapper">
+            <label class="label-field" for="popup-user-comment">Comment</label>
+            <textarea
+              class="comment-field"
+              name="popup-user-comment"
+              id="popup-user-comment"
+              placeholder="Input text"
+            ></textarea>
+          </div>
+          <div class="agreement-container">
+            <input
+              type="checkbox"
+              id="popup-user-agreement"
+              value="true"
+              class="input-checkbox visually-hidden"
+            />
+            <label for="popup-user-agreement" class="agreement-label">
+              <span class="custom-checkbox">
+                <svg width="10" height="8" class="checked-icon">
+                  <use href="./images/icons.svg#icon-checked"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the<a href="#"
+                ><span class="accent privacy-policy">Privacy Policy</span></a
+              ></label
+            >
+          </div>
+          <div class="popup-btn-container">
+            <button type="submit" class="popup-form-btn">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- #endregion popup -->
   </body>
 </html>
