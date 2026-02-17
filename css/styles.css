@@ -810,13 +810,7 @@ img {
 
 .privacy-policy {
   text-decoration: underline;
-  margin-left: 4px;
   transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.privacy-policy:hover,
-.privacy-policy:focus {
-  text-decoration: none;
 }
 
 .popup-btn-container {
